@@ -1,3 +1,6 @@
+> **复现 / Reproduction**：本仓库是官方 NLPrompt 代码（[qunovo/NLPrompt](https://github.com/qunovo/NLPrompt) `b36bc8e`，未改动），另加了复现脚本、结果和日志，见 [reproduction/](reproduction/README.md)。官方脚本扫多个学习率，**我们只取了一个学习率（0.002）**、每个设定一个种子。
+> This repository is the official NLPrompt code (unchanged) plus our reproduction scripts, results and logs in [reproduction/](reproduction/README.md). The official script sweeps several learning rates; **we used a single learning rate (0.002)** and one seed per setting.
+
 # NLPrompt: Noise-Label Prompt Learning for Vision-Language Models (CVPR 2025 Highlight)
 
 This is the official PyTorch implementation for the CVPR 2025 highlight paper: [NLPrompt: Noise-Label Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2412.01256). 
